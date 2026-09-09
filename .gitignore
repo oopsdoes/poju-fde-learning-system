@@ -1,0 +1,33 @@
+# Node / Python
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+*.secret
+*.token
+credentials/
+
+# Large or private media and transcripts
+*.mp4
+*.mkv
+*.mov
+*.wav
+*.mp3
+transcripts-private/
+private/
+local-only/
+
+# Generated artifacts
+dist/
+build/
+*.zip
+*.skill
+*.log
+.pytest_cache/
+.mypy_cache/
+.DS_Store
