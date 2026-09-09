@@ -89,7 +89,7 @@ breakout doctor
 - 本地文字资料；
 - 开源项目和真实练手项目资料。
 
-资料处理规则见 [`sources/source-policy.md`](sources/source-policy.md) 和 [`sources/ingest-workflow.md`](sources/ingest-workflow.md)。
+资料处理规则见 [`sources/source-policy.md`](sources/source-policy.md)、[`sources/ingest-workflow.md`](sources/ingest-workflow.md) 和 [`sources/learning-dialogue-workflow.md`](sources/learning-dialogue-workflow.md)。
 当前已登记的基础来源见 [`sources/source-registry.md`](sources/source-registry.md)。
 
 ## 4. 其他 Skill 与工具
@@ -135,6 +135,8 @@ git clone https://github.com/kangarooking/cangjie-skill.git
 ## 7. 更新机制
 
 破局每日新增内容不会直接覆盖课程正文。新增资料先进入资料登记，再经过筛选、去重、蒸馏和课程映射。只有在它改变能力要求、学习顺序、练习或验收标准时，才更新课程核心；普通案例作为资料增量保存。
+
+资料入库状态与学习状态分开记录，因此 DSH 视频转写可以与正式学习并行；新增视频只会补充证据、对照复习或形成新的小练习，不会因为“已转写”就重复安排已经验收过的知识。
 
 视频转写完成后，公开仓库只放可公开的索引、来源、摘要和已验证学习卡片；完整转写和中间文件留在本地工作区。
 
